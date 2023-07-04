@@ -1,0 +1,75 @@
+1. datatype variable_name;
+2.no
+3.NO
+4.NO
+5.The String[] args parameter in the main method is used to pass command-line arguments to a Java program when it is executed.
+6.YES
+7.YES we can declared but with different parameters.
+8.No 
+9.datatype variable_name[]={};
+10. 54321
+11.1.file should be saved with the .java
+   2.the code will compile first with java compiler with the command javac file_nmae.java
+   3.the code get converted into byte code and get executed with the help of command java file_name
+
+12.   java is a programming language where the code will be written
+	javac is a compiler which converts the .java into .class nothing but byte code
+
+13.A classloader is responsible for dynamically loading Java classes into the JVM during runtime
+   It searches for class files and loads them into memory
+
+14. when the array index is less then the given condition then it shows ArrayIndexOutOfBound 
+
+15.Due to abstraction,mulitipal inheritence
+
+16 jdk- for writing a program
+   jvm-to convert the java code into byte code
+   jre-to run the code
+
+17 main method
+
+18 no
+
+20 WORA
+
+21 The Java Virtual Machine (JVM) that allows Java programs to be executed on different platforms without modification.
+   It acts as an intermediary between the Java application and operating system.
+
+22 class is a nonpremitive datatype ,which start with upper case,it consists of class declration followed with {},
+   inside the class main method will be declared ,and variable declaration will be done at within in the class
+
+23. 
+24. Actual arguments -caller methods
+    formal arguments-called function
+
+25. A variable is a container which holds the value while the Java program is executed. A variable is assigned with a data type
+
+26. In constant pool
+
+27. inside the class the variable declared with the help of datatypte and the value will be intialised know as variable intialisation
+30. A specification where working of Java Virtual Machine is specified. But implementation provider is independent to choose the algorithm. Its implementation has been provided by Oracle and other companies.
+An implementation Its implementation is known as JRE (Java Runtime Environment).
+Runtime Instance Whenever you write java command on the command prompt to run the java class, an instance of JVM is created.
+
+31. local variable
+
+32. write once run anywhere
+
+33.java --version
+
+34. java 16
+
+35.A Class is an object constructor or blueprint to create an copy of  objects.
+
+36.object is a real world things which contains state and behavior  of object.
+
+37. class class_name{
+
+    public static void main(String[]args)
+	{
+	}
+        }
+
+38.class_name ref variable=new class_name();
+
+39.constructor is a special method which is used to copy a mulitpal object using new keyword
