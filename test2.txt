@@ -1,0 +1,122 @@
+1.D
+2.C
+3.C
+4.C
+5.Son
+6.X/A^Y
+7.Q
+8.Sistre-in-law
+9.Father
+10. S
+11. 10 kms
+12. South
+13. South-east
+14. South-west
+
+
+1. True
+2. 10,110
+3. error int cannot be converted to boolean
+4. Java main() method is always static, so that compiler can call it without the creation of an object or before the creation of an object of the class
+5. 
+class ArrayReversal {
+    public static void main(String[] args) {
+        int[] array = {10, 45, 7, 9, 3};
+        System.out.println("Original array:");
+        printArray(array);
+
+        reverseArray(array);
+
+        System.out.println("Reversed array:");
+        printArray(array);
+    }
+
+    static void reverseArray(int[] arr) {
+        int start = 0;
+        int end = arr.length - 1;
+
+        while (start < end) {
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
+    }
+
+    public static void printArray(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]);
+            if (i < arr.length - 1) {
+            }
+        }
+        System.out.println();
+    }
+}
+
+
+
+6. 
+7. true
+8. a. this keyword is used with the objects only.
+   b. It refers to the current object.
+   c. It is used to differentiate between the local variable and the instance variable in the method.
+
+   a. It is used to refer to the constructor belonging to the same class.
+   b. this() is used with constructors only.
+   c. It refers to the constructor of the same class whose parameters matches with the parameters passed to this(parameters).
+9. 
+class NumberSwap {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 3;
+        System.out.println("Before swapping: a = " + a + ", b = " + b);
+
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        System.out.println("After swapping: a = " + a + ", b = " + b);
+    }
+}
+10. 
+2. class SquarePattern {
+    public static void main(String[] args) {
+        int size = 3;
+		int centerRow = (size + 1) / 2;
+        int centerCol = (size + 1) / 2;
+        for (int i = 1; i <= size; i++) {
+            for (int j = 1; j <= size; j++) {
+				if (i == centerRow && j == centerCol) 
+				{
+                    System.out.print("& ");
+				}
+				else 
+				{
+					System.out.print("% ");
+				}
+			}
+            System.out.println();
+        }
+    }
+}
+3. class SquarePattern {
+    public static void main(String[] args) {
+        int size = 3;
+		int centerRow = (size + 1) / 2;
+        int centerCol = (size + 1) / 2;
+        for (int i = 1; i <= size; i++) {
+            for (int j = 1; j <= size; j++) {
+				if (i == centerRow && j == centerCol) 
+				{
+                    System.out.print("  ");
+				}
+				else 
+				{
+					System.out.print("% ");
+				}
+			}
+            System.out.println();
+        }
+    }
+}
